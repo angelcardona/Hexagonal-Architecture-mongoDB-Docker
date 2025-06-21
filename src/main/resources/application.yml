@@ -1,0 +1,11 @@
+# src/main/resources/application.yml
+
+# Configuración de Spring Data MongoDB
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user:1234@mongodb:27017/trading_journal?authSource=admin
+  # Configuración del servidor (puerto de la aplicación)
+  server:
+    port: 8080
+
